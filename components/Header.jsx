@@ -1,6 +1,5 @@
 import React from "react";
 import Link from "next/link";
-import Layout from "../Layout/layout";
 import Square from "./square";
 import { FaBars } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
