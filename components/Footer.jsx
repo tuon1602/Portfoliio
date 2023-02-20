@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs";
 
 const Footer = () => {
@@ -16,9 +17,9 @@ const Footer = () => {
         <div className="flex flex-col items-center">
           <p>Follow</p>
           <div className="flex justify-center mt-1 gap-5">
-            <a className="text-xl text-gray-500" href="https://www.facebook.com/TuonNguyen1602/"><BsFacebook /></a>
-            <a className="text-xl text-gray-500" href="https://github.com/tuon1602"><BsGithub/></a>
-            <a className="text-xl text-gray-500" href="https://www.instagram.com/tuonnguyen_._/"><BsInstagram /></a>
+            <Link className="text-xl text-gray-500" href="https://www.facebook.com/TuonNguyen1602/"><BsFacebook /></Link>
+            <Link className="text-xl text-gray-500" href="https://github.com/tuon1602"><BsGithub/></Link>
+            <Link className="text-xl text-gray-500" href="https://www.instagram.com/tuonnguyen_._/"><BsInstagram /></Link>
           </div>
         </div>
       </div>

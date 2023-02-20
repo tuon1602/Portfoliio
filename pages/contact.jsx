@@ -6,7 +6,7 @@ import Router from "next/router";
 import Head from "next/head";
 import { useRef, useState } from "react";
 
-const contact = () => {
+const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
@@ -46,7 +46,7 @@ const contact = () => {
           <div className="flex justify-center items-center ">
             <Square />
             <span className="font-bold tracking-wider text-2xl">
-              Let's talk
+              Let&apos;s talk
             </span>
           </div>
           <div className="mt-10 xs:mx-5">
@@ -101,4 +101,4 @@ const contact = () => {
   );
 };
 
-export default contact;
+export default Contact;

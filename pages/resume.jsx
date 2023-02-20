@@ -6,8 +6,9 @@ import Head from "next/head";
 import experience from "../data/data";
 import LanguagueSection from "../components/LanguagueSection";
 import SkillSection from "../components/SkillSection";
+import Link from "next/link";
 
-const resume = () => {
+const Resume = () => {
   return (
     <div className="">
       <Head>
@@ -25,16 +26,16 @@ const resume = () => {
           </div>
           <div title="Experience" className="flex justify-between md:mt-10 xs:px-5 pt-3">
             <span className="text-2xl tracking-widest xs:text-xl">Experience</span>
-            <a
+            <Link
               type="button"
               className="bg-blue-cus text-white border-black p-2 shadow-lg hover:bg-white hover:border hover:text-black rounded-lg xs:py-2 "
               href="/"
             >
               Download CV
-            </a>
+            </Link>
           </div>
-          {experience.map(item => (
-            <div className="w-full bg-white mt-10 flex justify-center items-center drop-shadow-xl xs:flex-wrap ">
+          {experience.map((item,index) => (
+            <div key={index} className="w-full bg-white mt-10 flex justify-center items-center drop-shadow-xl xs:flex-wrap ">
               <div className="flex-1 w-32 p-10 flex flex-col gap-1 xs:flex-none xs:w-full xs:px-5 xs:pb-5">
                 <p className="text-blue-cus font-bold">{item.begin} - {item.end}</p>
                 <p>Position: {item.job}</p>
@@ -54,4 +55,4 @@ const resume = () => {
   );
 };
 
-export default resume;
+export default Resume;
