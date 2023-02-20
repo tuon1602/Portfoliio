@@ -1,4 +1,5 @@
 # Welcom to my Portfolio Repo :wave:
+### Design inspiration from https://www.wix.com/website-template/view/html/2622?utm_source=affiliate&utm_medium=paid_referral&utm_campaign=af_51@designshack.net&experiment_id=cake_127825410^944
 ## What technology i'm using 
 - ### Nextjs ![](https://skillicons.dev/icons?i=nextjs)
 - ### TailwindCss ![](https://skillicons.dev/icons?i=tailwindcss)
