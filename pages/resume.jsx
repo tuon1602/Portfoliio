@@ -29,7 +29,7 @@ const Resume = () => {
             <Link
               type="button"
               className="bg-blue-cus text-white border-black p-2 shadow-lg hover:bg-white hover:border hover:text-black rounded-lg xs:py-2 "
-              href="/"
+              href="https://drive.google.com/file/d/1MbaO6RnL6GFetiYlpLGCfI2z86vd8RO4/view?usp=share_link"
             >
               Download CV
             </Link>

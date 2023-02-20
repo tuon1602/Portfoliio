@@ -41,10 +41,10 @@ const Information = () => {
           seeking new challenges and opportunities to expand my skills and
           knowledge
         </p>
-        <button className="border-1 bg-pink-300 hover:bg-pink2-cus hover:text-black p-2 rounded text-white my-5 shadow-lg">
+        <Link type="button" href="/contact" className="border-1 bg-pink-300 hover:bg-pink2-cus hover:text-black p-2 rounded text-white my-5 shadow-lg">
           Contact me
-        </button>
-        <Link type="button" className="ml-4 border-1 border-black p-2 shadow-lg hover:bg-pink1-cus hover:border-1 hover:text-white rounded " href="/">Download CV</Link>
+        </Link>
+        <Link type="button" className="ml-4 border-1 border-black p-2 shadow-lg hover:bg-pink1-cus hover:border-1 hover:text-white rounded " href="https://drive.google.com/file/d/1MbaO6RnL6GFetiYlpLGCfI2z86vd8RO4/view?usp=share_link">Download CV</Link>
       </div>
       <div className="flex-2 bg-pink1-cus mt-20 relative rounded-full w-96 h-96 xs:mr-5">
         {/* <Image src={shape} className=""/> */}
